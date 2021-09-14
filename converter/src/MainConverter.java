@@ -27,6 +27,10 @@ public class MainConverter {
 				amount = sc.nextFloat();
 				c.dollarToRupee(amount);
 			break;
+			
+			case 3:
+				
+			break;
 		
 			default:
 				System.out.println("INVALID OPTION");

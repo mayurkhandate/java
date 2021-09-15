@@ -21,12 +21,6 @@ public class Converter {
 		
 		result = amount * rate[i-1]/rate[j-1];
 		
-//		if(i < j) {
-//			result = amount * rate[i-1]/rate[j-1];
-//		}
-//		else if(j > i){
-//			result = amount * rate[j-1]/rate[i-1];
-//		}
 		return result;
 		
 	}

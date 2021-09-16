@@ -18,7 +18,6 @@ public class MainConverter {
 					System.out.println("--------------CURRENCY CONVERTER-------------");
 					r = c.create();
 					c.display(r);
-					System.out.println("Enter 1 to continue : ");
 				break;
 				
 				case 2:
@@ -38,7 +37,7 @@ public class MainConverter {
 				break;
 			}
 			
-		
+		System.out.println("Enter 1 to continue : ");
 		}while( 1 == sc.nextInt());
 		
 	}

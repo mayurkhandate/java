@@ -20,7 +20,7 @@ public class Converter {
 		amount = sc.nextInt();
 		
 		result = amount * rate[i-1]/rate[j-1];
-		
+		 
 		return result;
 		
 	}

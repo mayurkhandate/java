@@ -194,23 +194,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_PzXsoBUjEeyIgaNsHmTwdA" elementId="org.eclipse.ui.editorss" selectedElement="_PzXsoRUjEeyIgaNsHmTwdA">
-      <children xsi:type="basic:PartStack" xmi:id="_PzXsoRUjEeyIgaNsHmTwdA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_h8HsoBeSEeyIFNnbhK-yVQ">
+      <children xsi:type="basic:PartStack" xmi:id="_PzXsoRUjEeyIgaNsHmTwdA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_1D6AIBgyEeyIFNnbhK-yVQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_h8HsoBeSEeyIFNnbhK-yVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="matrix_main.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;matrix_main.java&quot; partName=&quot;matrix_main.java&quot; title=&quot;matrix_main.java&quot; tooltip=&quot;java_matrix/src/matrix_main.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/java_matrix/src/matrix_main.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1431&quot; selectionTopPixel=&quot;379&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;matrix_main.java&quot; partName=&quot;matrix_main.java&quot; title=&quot;matrix_main.java&quot; tooltip=&quot;java_matrix/src/matrix_main.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/java_matrix/src/matrix_main.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;148&quot; selectionTopPixel=&quot;489&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_1D6AIBgyEeyIFNnbhK-yVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MatrixCalculation.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MatrixCalculation.java&quot; partName=&quot;MatrixCalculation.java&quot; title=&quot;MatrixCalculation.java&quot; tooltip=&quot;java_matrix/src/MatrixCalculation.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/java_matrix/src/MatrixCalculation.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1949&quot; selectionTopPixel=&quot;892&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_1D6AIBgyEeyIFNnbhK-yVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MatrixCalculation.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MatrixCalculation.java&quot; partName=&quot;MatrixCalculation.java&quot; title=&quot;MatrixCalculation.java&quot; tooltip=&quot;java_matrix/src/MatrixCalculation.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/java_matrix/src/MatrixCalculation.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;708&quot; selectionTopPixel=&quot;275&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -347,7 +347,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PtypEBUjEeyIgaNsHmTwdA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OB1GsBl6EeyuQIJ_fgcY4Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Fv88cBUiEeyCtqiNNpHaNA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_eIUa8BnvEey_DLBS8jDVHA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Fv88cBUiEeyCtqiNNpHaNA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PtypERUjEeyIgaNsHmTwdA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -378,7 +378,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PtzQJRUjEeyIgaNsHmTwdA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OB6mQBl6EeyuQIJ_fgcY4Q" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Fv55KhUiEeyCtqiNNpHaNA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_eIZ6gBnvEey_DLBS8jDVHA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Fv55KhUiEeyCtqiNNpHaNA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Ptz3MBUjEeyIgaNsHmTwdA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -994,7 +994,7 @@
     <bindings xmi:id="_Fw5-qBUiEeyCtqiNNpHaNA" keySequence="ALT+CR" command="_Fvr2pxUiEeyCtqiNNpHaNA"/>
   </bindingTables>
   <bindingTables xmi:id="_FzVnkRUiEeyCtqiNNpHaNA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_FvIdDRUiEeyCtqiNNpHaNA">
-    <bindings xmi:id="_No2mABl6EeyuQIJ_fgcY4Q" keySequence="M1+W" command="_FzVAhRUiEeyCtqiNNpHaNA"/>
+    <bindings xmi:id="_duZfEBnvEey_DLBS8jDVHA" keySequence="M1+W" command="_FzVAhRUiEeyCtqiNNpHaNA"/>
   </bindingTables>
   <bindingTables xmi:id="_GWBd4BUiEeyCtqiNNpHaNA" bindingContext="_GWA20BUiEeyCtqiNNpHaNA"/>
   <bindingTables xmi:id="_GWFvURUiEeyCtqiNNpHaNA" bindingContext="_GWFvUBUiEeyCtqiNNpHaNA"/>

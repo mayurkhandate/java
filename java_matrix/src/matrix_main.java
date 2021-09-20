@@ -35,8 +35,8 @@ public class matrix_main {
 				
 			case 3:
 				System.out.println("\n\n-----------Addition of Matrix -------------\n\n");
-				r3 = m.addition(r1,r2);
-				m.display(r3);
+					r3 = m.addition(r1,r2);
+					m.display(r3);
 				break;
 				
 			case 4:

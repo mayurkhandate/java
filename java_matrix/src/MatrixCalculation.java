@@ -3,6 +3,7 @@ import java.util.*;
 public class MatrixCalculation {
 	Scanner sc = new Scanner(System.in);
 	int c=0,r=0;
+	boolean flag = true;
 	int matrix[][] = null;
 	
 	
@@ -35,17 +36,29 @@ public class MatrixCalculation {
 //	matrix addition half wrong
 	public int[][] addition(int matrix1[][],int matrix2[][]){
 		
-		if(matrix1.length == matrix2.length && matrix1[0].length == matrix2[0].length) {
+		if(matrix1.length == matrix2.length) {
+			
+			for(int i = 0; i < matrix1.length ; i++) {
+				if(matrix1[i].length != matrix2[i].length) {
+					flag = false;
+					break;
+				}
+				
+			}
+			System.out.println("Enter same no of columns for both matrix \n");
+		}
+		else {
+			System.out.println("Enter same no of rows for both matrix \n");
+		}
+		
+		
+		if(flag) {
 			for(int i = 0; i < matrix1.length; i++) {
 				for(int j = 0; j < matrix1[i].length; j++) {
 					matrix[i][j] = matrix1[i][j] + matrix2[i][j];
 				}
 			}
 		}
-		else {
-			System.out.println("Enter same no of rows and col for both matrix \n");
-		}
-		
 		
 		return matrix;
 	}
@@ -54,17 +67,29 @@ public class MatrixCalculation {
 //	matrix multiplication half wrong
 public int[][] multiplication(int matrix1[][],int matrix2[][]){
 		
-		if(matrix1.length == matrix2.length && matrix1[0].length == matrix2[0].length) {
+		if(matrix1.length == matrix2.length) {
+			
+			for(int i = 0; i < matrix1.length ; i++) {
+				if(matrix1[i].length != matrix2[i].length) {
+					flag = false;
+					break;
+				}
+				
+			}
+			System.out.println("Enter same no of col for both matrix \n");
+		}
+		else {
+			System.out.println("Enter same no of rows for both matrix \n");
+		}
+		
+		
+		if(flag) {
 			for(int i = 0; i < matrix1.length; i++) {
 				for(int j = 0; j < matrix1[i].length; j++) {
 					matrix[i][j] = matrix1[i][j] * matrix2[i][j];
 				}
 			}
 		}
-		else {
-			System.out.println("Enter same no of rows and col for both matrix \n");
-		}
-		
 		
 		return matrix;
 	}

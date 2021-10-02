@@ -33,23 +33,25 @@ public class MatrixCalculation {
 	}
 	
 	
-//	matrix addition half wrong
-	public int[][] addition(int matrix1[][],int matrix2[][]){
-		
+//rows and columns validation
+	
+	public boolean validation(int matrix1[][],int matrix2[][]) {
 		if(matrix1.length == matrix2.length) {
 			
 			for(int i = 0; i < matrix1.length ; i++) {
 				if(matrix1[i].length != matrix2[i].length) {
 					flag = false;
 					break;
-				}
-				
-			}
-			System.out.println("Enter same no of columns for both matrix \n");
+				}	
+			}	
 		}
-		else {
-			System.out.println("Enter same no of rows for both matrix \n");
-		}
+		return flag;
+	}
+	
+	
+//	matrix addition half wrong
+	public int[][] addition(int matrix1[][],int matrix2[][]){
+		
 		
 		
 		if(flag) {

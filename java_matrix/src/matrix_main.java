@@ -10,6 +10,7 @@ public class matrix_main {
 		int[][] r4 = null;
 		int r5;
 		int ch;
+		boolean flag;
 		do {
 			System.out.println("\n 1.Create Matrix \n 2.Display Matrix \n 3.Addition of Matrix \n 4.Multiplication of Matrix \n 5.Transpose \n");
 			ch = sc.nextInt();
@@ -34,15 +35,31 @@ public class matrix_main {
 				break;
 				
 			case 3:
-				System.out.println("\n\n-----------Addition of Matrix -------------\n\n");
-					r3 = m.addition(r1,r2);
-					m.display(r3);
+					flag = m.validation(r1, r2);
+					if(flag) {
+						r3 = m.addition(r1,r2);
+						
+						System.out.println("\n\n-----------Addition of Matrix -------------\n\n");
+						m.display(r3);
+					}
+					else {
+						System.out.println("Enter same no of columns and rows.\n");
+					}
+					
 				break;
 				
 			case 4:
-				System.out.println("\n\n-----------Multiplication of Matrix -------------\n\n");
-				r4 = m.multiplication(r1,r2);
-				m.display(r4);
+				flag = m.validation(r1, r2);
+				if(flag) {
+					r4 = m.multiplication(r1,r2);
+					
+					System.out.println("\n\n-----------Multiplication of Matrix -------------\n\n");
+					m.display(r4);
+				}
+				else {
+					System.out.println("Enter same no of columns and rows.\n");
+				}
+				
 				break;
 				
 			case 5:

@@ -58,12 +58,13 @@ public class AccountInfo{
 	}
 	
 	public void displayAccount(Account[] arr) {
-		System.out.println("\n\t---------------------------------------------------------------------------------------------------\t\t\n");
-		System.out.println("\t\t\t\t\t\t STATE BANK OF INDIA \t\t\t");
-		System.out.println("\n\t---------------------------------------------------------------------------------------------------\t\t\n");
-
 		for(Account a : arr) {
 			if(a!=null) {
+				System.out.println("\n\t---------------------------------------------------------------------------------------------------\t\t\n");
+				System.out.println("\t\t\t\t\t\t STATE BANK OF INDIA \t\t\t");
+				System.out.println("\n\t---------------------------------------------------------------------------------------------------\t\t\n");
+				
+				
 				System.out.println("\n\t Account Type \t\t: " + a.getAccount_type() + "\t\t\t\t\t Date of Issue : 25/09/2020");
 				System.out.println("\n\t Account Number \t: " + a.getAccount_number() + "\t\t\t\t\t\t KONDHWA PUNE");
 				
@@ -137,30 +138,29 @@ public class AccountInfo{
 	}
 	
 	
-	public Boolean transaction(Account arr[],int account_number,Transactions t1[],int i) {
+	public int transaction(Account arr[],int account_number,Transactions t1[],int i) {
 		
-		Boolean b = false;
 		Account transaction_temp = search(arr,account_number);
 		
 		if(transaction_temp == null) {
-			return false;
+			return 0;
 		}
-		else {
-			b = true;
-		}
+		
 		Transactions t = new Transactions();
 		do {
-			System.out.println("1.withdrawl \n 2.Deposit");
+			System.out.println("1.withdrawl \n2.Deposit");
 			int ch = sc.nextInt();
 			switch(ch) {
 			case 1:
 					t.withdrwal(transaction_temp);
 					t1[i] = new Transactions(t.getAccount_no(),t.getTransaction_amount(),t.getTransaction_type());
+					i++;
 				break;
 				
 			case 2:
 				t.deposit(transaction_temp);
 				t1[i] = new Transactions(t.getAccount_no(),t.getTransaction_amount(),t.getTransaction_type());
+				i++;
 				break;
 				
 			default:
@@ -170,15 +170,16 @@ public class AccountInfo{
 		System.out.println("\n\n Enter 1 to continue....\n");
 		}while(sc.nextInt() == 1);
 		
-		return b;
+		return i;
 	}
 	
 	
 	public void transaction_display(Account arr[],int account_number,Transactions t[],int n) {
 		System.out.println("\n\n------------------------------Transactions-------------------------------\n\n");
 		for(int i = 0; i < n;i++) {
-			if(arr[i].getAccount_number() == account_number) {
+			if(t[i].getAccount_no() == account_number) {
 			System.out.println(" Account No : " + t[i].getAccount_no() + " Amount " + t[i].getTransaction_amount() + " Type " + t[i].getTransaction_type());
+			System.out.println("\n");
 			}	
 		}
 	}

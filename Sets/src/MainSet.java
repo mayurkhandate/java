@@ -6,7 +6,7 @@ public class MainSet {
 		Scanner sc = new Scanner(System.in);
 		int a3[] = null;
 		
-		int n1,n2,k=0;
+		int n1,n2;
 		
 		System.out.println("Enter no of element you want in array 1 : ");
 		n1 = sc.nextInt();
@@ -25,19 +25,32 @@ public class MainSet {
 			a2[i] = sc.nextInt();
 		}
 		
-	
-		a3 = new int[n1];
+		a3 = new int[a1.length + a2.length];
+		
 		for(int i = 0; i < n1; i++) {
 			a3[i] = a1[i];
+			System.out.format("%d", a3[i]);
+		}
+		
+		for(int i = 0,k = n1; i < n1; i++,k++) {
+			boolean b = true;
+			for(int j = 0; j < n2; j++) {
+				if(a1[i] == a2[j]) {
+					b = false;
+					break;
+				}
+				
+			}
+			if(b==true) {
+				a3[k] = a2[i];
+			}
+			
+			
 		}
 		
 		
-		for(int j = n1 + 1; k < n2; j++,k++) {
-			a3[j] = a2[k];
-		}
-		
-		for(int i = 0; i < a3.length; i++) {
-			System.out.println("\t" + a3[i]);
+		for(int i = 0; i < (a1.length + a2.length); i++) {
+			System.out.print("\t" + a3[i]);
 		}
 
 	}

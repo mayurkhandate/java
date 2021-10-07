@@ -16,7 +16,7 @@ public class AccountMain {
 		
 		
 		do {
-			System.out.println("1.Create Account\n2.Display Account\n3.Search\n4.Delete\n5.Update\n6.Transaction\n7.Sort\n8.Transactions");
+			System.out.println("1.Create Account\n2.Display Account\n3.Search\n4.Delete\n5.Update\n6.Transaction\n7.Sort\n8.Display Transactions");
 			int ch = sc.nextInt();
 				
 			switch(ch) {
@@ -62,10 +62,10 @@ public class AccountMain {
 				
 			case 6:
 					System.out.println("Enter account no : ");
-					boolean b = ainfo.transaction(arr,sc.nextInt(),t,i);
-					if(b) {
+					int result = ainfo.transaction(arr,sc.nextInt(),t,i);
+					if(result != 0) {
 						System.out.println("Transaction successfull..");
-						i++;
+						i = result;
 					}
 					else {
 						System.out.println("Transaction UnSuccessfull..");

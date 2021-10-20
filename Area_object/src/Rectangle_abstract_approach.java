@@ -1,5 +1,5 @@
 
-public class Rectangle_abstract_approach extends Shape_different_approach{
+public class Rectangle_abstract_approach implements Shape_different_approach{
 	private int length;
 	private int breadth;
 

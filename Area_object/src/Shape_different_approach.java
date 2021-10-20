@@ -1,6 +1,4 @@
 
-public abstract class Shape_different_approach {
-	public  void find_area_abstract() {
-		
-	}
+interface Shape_different_approach {
+	void find_area_abstract();
 }

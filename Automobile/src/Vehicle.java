@@ -1,0 +1,5 @@
+
+interface Vehicle extends Automobile{
+
+	
+}

@@ -4,9 +4,17 @@
     <fullyQualifiedTypeName name="sun.util.locale.provider.BaseLocaleDataMetaInfo"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="Transactions"/>
-    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Shape_different_approach"/>
     <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="Vehicle"/>
+    <fullyQualifiedTypeName name="Automobile"/>
+    <fullyQualifiedTypeName name="Flyable"/>
+    <fullyQualifiedTypeName name="FlyableVariables"/>
+    <fullyQualifiedTypeName name="Choper"/>
+    <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Student"/>
 </qualifiedTypeNameHistroy>

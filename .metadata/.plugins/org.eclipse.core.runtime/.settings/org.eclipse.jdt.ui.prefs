@@ -1,6 +1,6 @@
 content_assist_completion_replacement_background=200,200,0
 content_assist_completion_replacement_foreground=200,0,0
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Transactions"><rhs name\="Transactions"/></lhs><lhs name\="Flyable"><rhs name\="Choper"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Transactions"><rhs name\="Transactions"/></lhs><lhs name\="Flyable"><rhs name\="Choper"/></lhs><lhs name\="java.lang.Thread"><rhs name\="UserThread"/><rhs name\="CalculationThread"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="UserThread"/><rhs name\="CalculationThread"/></lhs><lhs name\="UserThread"><rhs name\="UserThread"/></lhs><lhs name\="ThreadCommandLine"><rhs name\="ThreadCommandLine"/></lhs><lhs name\="CalculationThread"><rhs name\="CalculationThread"/></lhs><lhs name\="SingleThread_TwoClasses.ArithmeticThread"><rhs name\="SingleThread_TwoClasses.ArithmeticThread"/></lhs><lhs name\="OnlineExamThread.TestThread"><rhs name\="OnlineExamThread.TestThread"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_parameters_background=52,57,61
 content_assist_parameters_foreground=238,238,238

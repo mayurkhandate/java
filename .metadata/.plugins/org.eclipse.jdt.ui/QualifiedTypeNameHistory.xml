@@ -15,6 +15,18 @@
     <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
     <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Student"/>
+    <fullyQualifiedTypeName name="UserThread"/>
+    <fullyQualifiedTypeName name="ThreadCommandLine"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="CalculationThradMain"/>
+    <fullyQualifiedTypeName name="Calculation"/>
+    <fullyQualifiedTypeName name="CalculationThread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="SingleThread_TwoClasses.AreaThread"/>
+    <fullyQualifiedTypeName name="SingleThread_TwoClasses.InfoThread"/>
+    <fullyQualifiedTypeName name="SingleThread_TwoClasses.ArithmeticThread"/>
+    <fullyQualifiedTypeName name="OnlineExamThread.TestThread"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
 </qualifiedTypeNameHistroy>
